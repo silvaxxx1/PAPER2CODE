@@ -1,19 +1,19 @@
-
+```markdown
 # FC8_VGG
 
-![FC8_VGG](C:/Users/USER/SILVA/PAPER2CODE/FC8_VGG/images/FCN_8.png)
+![FC8_VGG](images/FCN_8.png)
 
 ## Description
-This subproject implements the FC8 VGG model from scratch, based on the original research paper. The model is designed for image segmentation and classification tasks, utilizing the pre_trained VGG16 architecture with additional layers for fine-tuning.
+This subproject implements the FC8 VGG model from scratch, based on the original research paper. The model is designed for image segmentation and classification tasks, utilizing the pre-trained VGG16 architecture with additional layers for fine-tuning.
 
 ## Dataset 
-the dataset [custom dataset](https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?usp=sharing) is provided by [divamgupta](https://github.com/divamgupta/image-segmentation-keras) . This contains video frames from a moving vehicle and is a subsample of the [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) dataset. 
+The dataset is provided by [divamgupta](https://github.com/divamgupta/image-segmentation-keras). This contains video frames from a moving vehicle and is a subsample of the [CamVid](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) dataset. You can download the custom dataset [here](https://drive.google.com/file/d/0B0d9ZiqAgFkiOHR1NTJhWVJMNEU/view?usp=sharing).
 
-![Sample of the dataset](C:/Users/USER/SILVA/PAPER2CODE/FC8_VGG/images/img1.png)
+![Sample of the dataset](images/img1.png)
 
-## Model summary 
+## Model Summary
 
-
+```
 Model: "model_1"
 __________________________________________________________________________________________________
  Layer (type)                   Output Shape         Param #     Connected to                     
@@ -98,12 +98,13 @@ Trainable params: 135,067,736
 Non-trainable params: 0
 __________________________________________________________________________________________________
 
-
 ### Loading Pretrained Weights
 To load pretrained VGG16 weights, use:
+
 ```bash
 python MODEL/load_weights.py
 ```
+
 ### Training the Model
 To train the model, run the following command:
 ```bash
@@ -121,7 +122,5 @@ python main.py
 - `UTILS/`: Utility scripts for metrics and visualization.
 - `data/`: Scripts and data for training and testing.
 - `images/`: Contains images of the output.
-
-
-
+```
 
