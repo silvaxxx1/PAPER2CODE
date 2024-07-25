@@ -1,0 +1,7 @@
+Python 3.7+
+TensorFlow
+PyTorch
+NumPy
+Matplotlib
+OpenCV
+Jupyter Notebook
