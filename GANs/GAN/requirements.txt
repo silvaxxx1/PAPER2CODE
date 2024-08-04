@@ -1,0 +1,20 @@
+# Core Libraries
+tensorflow==2.13.0
+numpy==1.24.4
+
+# Image Processing
+Pillow==10.0.0
+matplotlib==3.8.0
+
+# Progress Bar
+tqdm==4.65.0
+
+# Additional Libraries
+scipy==1.11.3
+opencv-python-headless==4.8.0.76
+
+# Optional: For distributed training (out pf support for newer version of tf)
+tensorflow-addons==0.21.0
+
+# Optional: For specific GAN implementations or extra utilities
+imageio==2.25.1

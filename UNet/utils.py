@@ -1,4 +1,7 @@
 import matplotlib.pyplot as plt 
+import numpy as np 
+import tensorflow as tf 
+
 
 # class list of the mask pixels
 class_names = ['pet', 'background', 'outline']
@@ -44,7 +47,7 @@ def show_image_from_dataset(dataset):
     display([sample_image, sample_mask], titles=["Image", "True Mask"])
 
 
-def plot_metrics(metric_name, title, ylim=5):
+def plot_metrics(model_history,metric_name, title, ylim=5):
     '''plots a given metric from the model history'''
     plt.title(title)
     plt.ylim(0,ylim)
@@ -55,4 +58,22 @@ def plot_metrics(metric_name, title, ylim=5):
              color='green', 
              label='val_' + metric_name)
     
-    
+def class_wise_metrics(y_true, y_pred):
+    class_wise_iou = []
+    class_wise_dice_score = []
+
+    smoothening_factor = 0.00001
+    for i in range(3):
+        
+        intersection = np.sum((y_pred == i) * (y_true == i))
+        y_true_area = np.sum((y_true == i))
+        y_pred_area = np.sum((y_pred == i))
+        combined_area = y_true_area + y_pred_area
+        
+        iou = (intersection + smoothening_factor) / (combined_area - intersection + smoothening_factor)
+        class_wise_iou.append(iou)
+        
+        dice_score =  2 * ((intersection + smoothening_factor) / (combined_area + smoothening_factor))
+        class_wise_dice_score.append(dice_score)
+
+    return class_wise_iou, class_wise_dice_score
