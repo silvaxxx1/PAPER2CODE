@@ -2,7 +2,7 @@ import tensorflow
 from train.distrubution import get_strategy , distributed , Reduction
 from Generator import create_generator
 from Discriminator import create_discriminator
-from utils.data import load_data
+from utils.data_utils import load_data
 from utils.model_utils import gradient_penalty 
 
 

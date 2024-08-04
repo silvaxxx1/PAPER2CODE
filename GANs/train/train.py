@@ -1,6 +1,6 @@
 import tensorflow as tf
 from distrubution import get_strategy
-from utils.data import load_data
+from utils.data_utils import load_data
 import tqdm
 from GAN.Model import train_step, create_generator, create_discriminator
 import os 
