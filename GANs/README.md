@@ -72,13 +72,11 @@ This repository includes implementations based on the following papers:
 
 7. **View the Papers**
 
-Certainly! Here’s how you can include an important note in the README to explain the default behavior and how to enable the additional techniques from the second and third papers:
-
----
-
 ## Important Note
 
 This repository implements Generative Adversarial Networks (GANs) based on the first paper "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks" by Alec Radford et al. by default. 
+
+please utilize `distribution.py` since the training of GANs is rather a demanding tasks in term of compute power
 
 ### Default Configuration
 
