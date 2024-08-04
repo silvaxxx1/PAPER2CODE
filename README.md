@@ -1,4 +1,7 @@
+```markdown
 # PAPER2CODE Repository
+
+![Logo](/image.png)
 
 Welcome to the PAPER2CODE repository! This repository is dedicated to the implementation of state-of-the-art research papers in machine learning and deep learning from scratch. Our goal is to bridge the gap between theoretical research and practical implementation, providing clear, educational, and reproducible implementations of the models and methods described in these papers. We will be implementing these models using TensorFlow and PyTorch, depending on the specific requirements of each project.
 
@@ -10,7 +13,7 @@ The repository is organized into multiple subprojects, each focusing on a differ
 - `ResNet50/`
 - `VisionTransformer/`
 - `Unet/`
-- `utils/`
+- `GAN/`
 
 ## Overview
 
@@ -20,6 +23,7 @@ PAPER2CODE is an ever-growing repository that aims to continuously expand with n
 - **ResNet50**
 - **Vision Transformer**
 - **Unet**
+- **GAN**
 
 ## Getting Started
 
@@ -61,6 +65,20 @@ To get started with the implementations in this repository, you need the followi
 
 Each subproject contains its own set of instructions and scripts for training and evaluating the models. Refer to the README file within each subproject directory for detailed usage instructions.
 
+## What is the latest implementaion? (GAN subproject)
+
+The GAN subproject implements ideas from the following papers:
+
+1. **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks**
+   - Alec Radford, Luke Metz, Soumith Chintala
+
+2. **On Convergence and Stability of GANs**
+   - Naveen Kodali, Jacob Abernethy, James Hays, Zsolt Kira
+
+3. **Improved Training of Wasserstein GANs**
+   - Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville
+
+
 ## Contributing
 
 Contributions are welcome! If you have an implementation of a research paper that you would like to add to this repository, please follow these steps:
@@ -81,3 +99,9 @@ We would like to thank the authors of the original research papers for their val
 ---
 
 Thank you for visiting the PAPER2CODE repository! We hope you find the implementations useful and educational. If you have any questions or feedback, please feel free to open an issue or contact us.
+```
+
+
+
+
+
