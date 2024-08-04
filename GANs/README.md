@@ -1,12 +1,11 @@
 
 ## GAN Implementations
 
-![Celeb DCGANs](images/faces.png)
+                                        ![Celeb DCGANs](images/faces.png)
 
 Welcome to the Paper2Code repository! This repository contains implementations of Generative Adversarial Networks (GANs) as described in three influential papers. The implementations are provided from scratch, focusing on different aspects of GAN architectures and training techniques.
 
-![The proposed architecture](images/mnist.png)
-
+                                    ![The proposed architecture](images/mnist.png)
 
 ## Repository Structure
 
