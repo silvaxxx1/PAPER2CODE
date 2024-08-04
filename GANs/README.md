@@ -64,7 +64,7 @@ This repository includes implementations based on the following papers:
    python train.py
    ```
 
-5. **Distributed Training (Optional)**
+5. **Distributed Training**
    Use the `distribution.py` script to configure distributed training across TPU or GPU backends.
 
 6. **Generate and View Images**
