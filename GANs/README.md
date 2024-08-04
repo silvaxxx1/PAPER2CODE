@@ -1,5 +1,5 @@
 
-## GAN Implementations
+## GANs Playground: An Exploration of Generative Adversarial Networks
 
 ![Celeb DCGANs](images/faces.png)
 
