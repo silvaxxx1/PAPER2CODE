@@ -1,12 +1,9 @@
 
-## GAN Implementations
+## GANs Playground: An Exploration of Generative Adversarial Networks
 
 ![Celeb DCGANs](images/faces.png)
 
 Welcome to the Paper2Code repository! This repository contains implementations of Generative Adversarial Networks (GANs) as described in three influential papers. The implementations are provided from scratch, focusing on different aspects of GAN architectures and training techniques.
-
-![The proposed architecture](images/mnist.png)
-
 
 ## Repository Structure
 
@@ -67,7 +64,7 @@ This repository includes implementations based on the following papers:
    python train.py
    ```
 
-5. **Distributed Training (Optional)**
+5. **Distributed Training**
    Use the `distribution.py` script to configure distributed training across TPU or GPU backends.
 
 6. **Generate and View Images**
@@ -75,13 +72,11 @@ This repository includes implementations based on the following papers:
 
 7. **View the Papers**
 
-Certainly! Here’s how you can include an important note in the README to explain the default behavior and how to enable the additional techniques from the second and third papers:
-
----
-
 ## Important Note
 
 This repository implements Generative Adversarial Networks (GANs) based on the first paper "Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks" by Alec Radford et al. by default. 
+
+please utilize `distribution.py` since the training of GANs is rather a demanding tasks in term of compute power
 
 ### Default Configuration
 
