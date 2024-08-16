@@ -1,10 +1,12 @@
-```markdown
-# PAPER2CODE Repository
+Here's an updated version of the `README.md` for your PAPER2CODE repository, including the addition of the new `NLP-Evolution` project and relevant details:
 
+---
+
+# PAPER2CODE Repository
 
 ![Logo](/image.png)
 
-Welcome to the PAPER2CODE repository! This repository is dedicated to the implementation of state-of-the-art research papers in machine learning and deep learning from scratch. Our goal is to bridge the gap between theoretical research and practical implementation, providing clear, educational, and reproducible implementations of the models and methods described in these papers. We will be implementing these models using TensorFlow and PyTorch, depending on the specific requirements of each project.
+Welcome to the PAPER2CODE repository! This repository is dedicated to the implementation of state-of-the-art research papers in machine learning and deep learning from scratch. Our goal is to bridge the gap between theoretical research and practical implementation, providing clear, educational, and reproducible implementations of the models and methods described in these papers. We implement these models using TensorFlow and PyTorch, depending on the specific requirements of each project.
 
 ## Repository Structure
 
@@ -15,16 +17,24 @@ The repository is organized into multiple subprojects, each focusing on a differ
 - `VisionTransformer/`
 - `Unet/`
 - `GAN/`
+- `NLP-Evolution/`
 
 ## Overview
 
 PAPER2CODE is an ever-growing repository that aims to continuously expand with new implementations of influential research papers in the field of machine learning and deep learning. As of now, the repository includes the following subprojects:
 
-- **FCN8_VGG**
-- **ResNet50**
-- **Vision Transformer**
-- **Unet**
-- **GAN**
+- **FCN8_VGG**: Implementation of the FCN-8 model based on [Long et al. 2015](https://arxiv.org/abs/1411.4038).
+- **ResNet50**: Implementation of the ResNet-50 architecture following [He et al. 2016](https://arxiv.org/abs/1512.03385).
+- **Vision Transformer**: Implementation of the Vision Transformer model as described in [Dosovitskiy et al. 2020](https://arxiv.org/abs/2010.11929).
+- **Unet**: Implementation of the U-Net model for biomedical image segmentation based on [Ronneberger et al. 2015](https://arxiv.org/abs/1505.04597).
+- **GAN**: Implementation of Generative Adversarial Networks based on [Goodfellow et al. 2014](https://arxiv.org/abs/1406.2661).
+- **NLP-Evolution**: A collection of implementations for various natural language processing models including Bigram, MLP, RNN, LSTM, GRU, and Transformer models. Each model is explained and implemented according to key papers:
+  - **Bigram**: Predicts the next character based on the previous one.
+  - **MLP**: Follows [Bengio et al. 2003](https://arxiv.org/abs/cs/0308034).
+  - **RNN**: Based on [Mikolov et al. 2010](https://arxiv.org/abs/1011.0163).
+  - **LSTM**: Implements Long Short-Term Memory networks following [Graves et al. 2014](https://arxiv.org/abs/1402.1128).
+  - **GRU**: Based on [Cho et al. 2014](https://arxiv.org/abs/1406.1078).
+  - **Transformer**: Implements the Transformer model as described in [Vaswani et al. 2017](https://arxiv.org/abs/1706.03762).
 
 ## Getting Started
 
@@ -49,60 +59,43 @@ To get started with the implementations in this repository, you need the followi
    cd PAPER2CODE
    ```
 
-2. Create a virtual environment and activate it:
-
-   ```bash
-   python -m venv env
-   source env/bin/activate  # On Windows: env\Scripts\activate
-   ```
-
-3. Install the required dependencies:
+2. Install the required dependencies:
 
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
+## Project-Specific Information
 
-Each subproject contains its own set of instructions and scripts for training and evaluating the models. Refer to the README file within each subproject directory for detailed usage instructions.
+### NLP-Evolution
 
-## What is the latest implementaion? (GAN subproject)
+The `NLP-Evolution` project explores various natural language processing models implemented in PyTorch. It includes implementations for:
 
-The GAN subproject implements ideas from the following papers:
+- **Bigram**: A simple model predicting the next character based on the previous one.
+- **MLP**: A multi-layer perceptron for sequence modeling.
+- **RNN**: Recurrent neural network for capturing temporal dependencies.
+- **LSTM**: Long Short-Term Memory networks for improved sequence modeling.
+- **GRU**: Gated Recurrent Units as an alternative to LSTM.
+- **Transformer**: A powerful model leveraging self-attention mechanisms.
 
-1. **Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks**
-   - Alec Radford, Luke Metz, Soumith Chintala
+For detailed usage and implementation, see the [NLP-Evolution README](NLP-Evolution/README.md).
 
-2. **On Convergence and Stability of GANs**
-   - Naveen Kodali, Jacob Abernethy, James Hays, Zsolt Kira
+### Fun Experiment: Building Layers from Scratch
 
-3. **Improved Training of Wasserstein GANs**
-   - Ishaan Gulrajani, Faruk Ahmed, Martin Arjovsky, Vincent Dumoulin, Aaron Courville
-
+In the `from_scratch_for_fun.py` file, we implement MLP, LSTM, and GRU layers from scratch using NumPy. This exercise is intended to help gain a deeper intuition about these models and their components. It's not the primary focus of the repository but serves as an educational tool for understanding the underlying mechanisms of these models.
 
 ## Contributing
 
-Contributions are welcome! If you have an implementation of a research paper that you would like to add to this repository, please follow these steps:
+If you'd like to contribute to this repository, please follow these steps:
 
 1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push them to your branch.
-4. Create a pull request with a description of your changes.
+2. Create a new branch (`git checkout -b feature-branch`).
+3. Make your changes.
+4. Commit your changes (`git commit -am 'Add new feature'`).
+5. Push to the branch (`git push origin feature-branch`).
+6. Create a new Pull Request.
 
 ## License
 
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
-
-## Acknowledgements
-
-We would like to thank the authors of the original research papers for their valuable contributions to the field of machine learning and deep learning. Their work has inspired this repository and continues to drive innovation in the field.
-
----
-
-Thank you for visiting the PAPER2CODE repository! We hope you find the implementations useful and educational. If you have any questions or feedback, please feel free to open an issue or contact us.
-```
-
-
-
-
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
