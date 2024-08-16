@@ -2,6 +2,11 @@
 
 This repository provides implementations of various natural language processing (NLP) models using PyTorch, ranging from simple models to advanced architectures. The goal is to explore and understand these models through hands-on coding and experimentation.
 
+<div align="center">
+  <img src="NLP_MODELS.png" alt="Logo" />
+</div>
+
+
 ## Models Implemented
 
 - **Bigram Model**: A basic model where each character is predicted based on the previous one using a lookup table.
