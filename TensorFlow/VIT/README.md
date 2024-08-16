@@ -1,5 +1,10 @@
 ﻿# VIT_from_scratch
 
+<div align="center">
+  <img src="./VIT.png" alt="Logo" />
+</div>
+
+
 This repository contains an implementation of Vision Transformer (ViT) from scratch using TensorFlow/Keras. The Vision Transformer is a novel architecture proposed for image classification tasks, which replaces convolutional layers with self-attention mechanisms commonly used in transformers.
 
 ## Features
