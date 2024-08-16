@@ -1,6 +1,9 @@
 # UNet 
 
-![UNet](/unet.png)
+<div align="center">
+  <img src="./unet.png" alt="Logo" />
+</div>
+
 
 ## Description
 This subproject focuses on implementing the UNet model from scratch. UNet is a convolutional neural network designed for biomedical image segmentation. Its architecture is built upon the fully convolutional network, and it was developed with the purpose of performing precise segmentation of medical images.

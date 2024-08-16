@@ -1,6 +1,12 @@
 ```markdown
 # FC8_VGG
 
+<div align="center">
+  <img src="./images/FCN_8.png" alt="Logo1" width="500" />
+  <img src="./images/img1.png" alt="Logo2" width="500" />
+</div>
+
+
 ## Description
 This subproject implements the FC8 VGG model from scratch, based on the original research paper. The model is designed for image segmentation and classification tasks, utilizing the pre-trained VGG16 architecture with additional layers for fine-tuning.
 
