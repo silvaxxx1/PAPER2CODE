@@ -5,7 +5,7 @@ Here's an updated version of the `README.md` for your PAPER2CODE repository, inc
 # PAPER2CODE Repository
 
 <div align="center">
-  <img src="/P2C2.png" alt="Logo" />
+  <img src="/P2C2.jpeg" alt="Logo" />
 </div>
 
 
