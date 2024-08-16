@@ -5,8 +5,8 @@ Here's an updated version of the `README.md` for your PAPER2CODE repository, inc
 # PAPER2CODE Repository
 
 <div align="center">
-  <img src="./P2C.png" alt="Logo1" width="300" />
-  <img src="./P2C2.jpeg" alt="Logo2" width="300" />
+  <img src="./P2C.png" alt="Logo1" width="500" />
+  <img src="./P2C2.jpeg" alt="Logo2" width="500" />
 </div>
 
 
