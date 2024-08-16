@@ -4,7 +4,10 @@ Here's an updated version of the `README.md` for your PAPER2CODE repository, inc
 
 # PAPER2CODE Repository
 
-![Logo](./P2C2.jpeg)
+<div align="center">
+  <img src="/P2C2.png" alt="Logo" />
+</div>
+
 
 Welcome to the PAPER2CODE repository! This repository is dedicated to the implementation of state-of-the-art research papers in machine learning and deep learning from scratch. Our goal is to bridge the gap between theoretical research and practical implementation, providing clear, educational, and reproducible implementations of the models and methods described in these papers. We implement these models using TensorFlow and PyTorch, depending on the specific requirements of each project.
 
