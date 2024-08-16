@@ -1,7 +1,3 @@
-Here's an updated version of the `README.md` for your PAPER2CODE repository, including the addition of the new `NLP-Evolution` project and relevant details:
-
----
-
 # PAPER2CODE Repository
 
 <div align="center">
