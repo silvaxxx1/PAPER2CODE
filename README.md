@@ -36,6 +36,9 @@ PAPER2CODE is an ever-growing repository that aims to continuously expand with n
   - **LSTM**: Implements Long Short-Term Memory networks following [Graves et al. 2014](https://arxiv.org/abs/1402.1128).
   - **GRU**: Based on [Cho et al. 2014](https://arxiv.org/abs/1406.1078).
   - **Transformer**: Implements the Transformer model as described in [Vaswani et al. 2017](https://arxiv.org/abs/1706.03762).
+  - **In-Run Data Shapley**: Implements a unique data attribution method - In-run Data Shapley as described in [Jiachen T. Wang et al. 2024](https://arxiv.org/abs/2406.11011)
+
+
 
 ## Getting Started
 
